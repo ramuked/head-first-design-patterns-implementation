@@ -1,0 +1,23 @@
+# Ignore OS files
+.DS_Store
+*.iml
+# Ignore build/output folders
+/build/
+/dist/
+/target/
+/out/
+# Ignore dependency folders
+/node_modules/
+/venv/
+
+# Ignore IDE settings
+.idea/
+/.vscode/
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.swp
+
+# Ignore environment variables
+.env
