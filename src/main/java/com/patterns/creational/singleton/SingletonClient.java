@@ -10,6 +10,6 @@ public class SingletonClient {
         tss.getData();
 
         SingletonEnum instance = SingletonEnum.UNIQUE_INSTANCE;
-        instance.getData();;
+        instance.getData();
     }
 }
