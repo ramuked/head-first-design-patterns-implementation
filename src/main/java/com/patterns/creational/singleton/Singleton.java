@@ -3,7 +3,7 @@ package main.java.com.patterns.creational.singleton;
 public class Singleton {
     private static Singleton uniqueInstance;
 
-    private Singleton(){};
+    private Singleton(){}
 
     public static Singleton getInstance(){
         if(uniqueInstance == null){
