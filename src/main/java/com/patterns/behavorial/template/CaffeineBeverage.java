@@ -4,7 +4,7 @@ public abstract class CaffeineBeverage {
     public void prepareRecipe(){
         boilWater();
         brew();
-        pourInCup();;
+        pourInCup();
         if(customerWantsCondiments()){
             addCondiments();
         }

@@ -5,7 +5,7 @@ public class CaffeineClient {
         CaffeineBeverage beverage = new Tea();
         beverage.prepareRecipe();
         beverage = new Coffee();
-        beverage.prepareRecipe();;
+        beverage.prepareRecipe();
         beverage = new CoffeeWithHook();
         beverage.prepareRecipe();
     }
